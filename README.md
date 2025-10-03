@@ -42,7 +42,7 @@ docker build -t ${scaffold.name} .
 - FastAPI
 - Python
 
-## ️ Architecture
+## Architecture
 
 ```
 rag-agentic-scaffold/
