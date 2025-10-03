@@ -1,0 +1,37 @@
+{
+  "name": "rag-agentic-scaffold",
+  "description": "RAG system with agentic capabilities and vector store integration",
+  "tech": [
+    "LangChain",
+    "Pinecone",
+    "OpenAI",
+    "FastAPI",
+    "Python"
+  ],
+  "categories": [
+    "ai-ml",
+    "backend"
+  ],
+  "usecases": [
+    "ai-ml",
+    "enterprise"
+  ],
+  "maturity": "stable",
+  "complexity": "advanced",
+  "features": [
+    "rag",
+    "vector-store",
+    "streaming",
+    "unit-tests",
+    "docker",
+    "ci-cd"
+  ],
+  "hasDemo": true,
+  "hasCLI": false,
+  "securityFeatures": [
+    "input-validation",
+    "rate-limiting",
+    "authentication"
+  ],
+  "lastUpdated": "2025-01-03"
+}
