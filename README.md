@@ -2,16 +2,16 @@
 
 RAG system with agentic capabilities and vector store integration
 
-## 🎯 Features
+## Included
 
-- ✅ Rag
-- ✅ Vector Store
-- ✅ Streaming
-- ✅ Unit Tests
-- ✅ Docker
-- ✅ Ci Cd
+- Rag
+- Vector Store
+- Streaming
+- Unit Tests
+- Docker
+- Ci Cd
 
-## 🚀 Quick Start
+## Getting Started
 
 ```bash
 # Clone the repository
@@ -34,7 +34,7 @@ pytest
 docker build -t ${scaffold.name} .
 ```
 
-## 📦 Tech Stack
+## Technologies
 
 - LangChain
 - Pinecone
@@ -42,31 +42,31 @@ docker build -t ${scaffold.name} .
 - FastAPI
 - Python
 
-## 🏗️ Architecture
+## ️ Architecture
 
 ```
 rag-agentic-scaffold/
-├── src/                    # Source code
-│   ├── core/              # Core functionality
-│   ├── utils/             # Utilities
-│   └── config/            # Configuration
-├── tests/                  # Test files
-│   ├── unit/              # Unit tests
-│   └── integration/       # Integration tests
-├── docs/                   # Documentation
-├── .github/workflows/      # CI/CD pipelines
+├── src/ # Source code
+│ ├── core/ # Core functionality
+│ ├── utils/ # Utilities
+│ └── config/ # Configuration
+├── tests/ # Test files
+│ ├── unit/ # Unit tests
+│ └── integration/ # Integration tests
+├── docs/ # Documentation
+├── .github/workflows/ # CI/CD pipelines
 ├── Dockerfile
 ├── docker-compose.yml
 └── README.md
 ```
 
-## 🔒 Security Features
+## Security Features
 
-- ✅ Input Validation
-- ✅ Rate Limiting
-- ✅ Authentication
+- Input Validation
+- Rate Limiting
+- Authentication
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -79,7 +79,7 @@ pytest --cov
 pytest tests/unit
 ```
 
-## 📊 Monitoring & Observability
+## Monitoring & Observability
 
 - Structured logging
 - Metrics collection
@@ -87,7 +87,7 @@ pytest tests/unit
 - Performance monitoring
 - Live demo dashboard
 
-## 🚢 Deployment
+## Deployment
 
 ### Docker
 ```bash
@@ -105,7 +105,7 @@ kubectl apply -f k8s/
 docker-compose up -d
 ```
 
-## 📚 Documentation
+## Documentation
 
 - [Getting Started](./docs/getting-started.md)
 - [Configuration](./docs/configuration.md)
@@ -113,15 +113,15 @@ docker-compose up -d
 - [Deployment Guide](./docs/deployment.md)
 - [Security Best Practices](./docs/security.md)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
 
-## 📄 License
+## License
 
 MIT - Built by Augustus Rivers at Offlabel Design
 
-## 💬 Support
+## Support
 
 - **Email:** hello@offlabel.design
 - **GitHub:** https://github.com/offlabel-scaffolds/rag-agentic-scaffold
@@ -131,5 +131,5 @@ MIT - Built by Augustus Rivers at Offlabel Design
 
 **Maturity:** stable | **Complexity:** advanced | **Last Updated:** 2025-01-03
 
-**🎮 [View Live Demo →](https://demo.offlabel.design/rag-agentic-scaffold)**
+** [View Live Demo →](https://demo.offlabel.design/rag-agentic-scaffold)**
 
